@@ -43,6 +43,8 @@ const staticModels: ModelInfo[] = [
   { name: 'mistral-small-latest', label: 'Mistral Small', provider: 'Mistral' },
   { name: 'codestral-latest', label: 'Codestral', provider: 'Mistral' },
   { name: 'mistral-large-latest', label: 'Mistral Large Latest', provider: 'Mistral' },
+  { name: 'o1-preview', label: 'o1 Preview', provider: 'OpenAI' },
+  { name: 'o1-preview', label: 'o1 mini', provider: 'OpenAI' },
 ];
 
 export let MODEL_LIST: ModelInfo[] = [...staticModels];
